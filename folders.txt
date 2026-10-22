@@ -1,0 +1,5 @@
+.devcontainer
+.github
+.vscode
+docs
+working_documents 
