@@ -1,1 +1,7 @@
-.
+.gitattributes
+.gitignore
+files.txt
+folders.txt
+LICENSE
+main.py
+requirements.txt
