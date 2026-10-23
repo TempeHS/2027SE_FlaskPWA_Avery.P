@@ -1,7 +1,10 @@
 .gitattributes
 .gitignore
+data_source.db
 files.txt
 folders.txt
 LICENSE
 main.py
+my_queries.sql
 requirements.txt
+Untitled-1.sqlite3-query
