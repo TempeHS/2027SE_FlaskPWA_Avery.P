@@ -7,8 +7,3 @@ def listExtension():
     data = cur.execute("SELECT * FROM extension").fetchall()
     con.close()
     return data
-
-
-def index():
-    data = dbHandler.listExtension()
-    return render_template("/index.html", content=data)
