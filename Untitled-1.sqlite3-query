@@ -9,6 +9,7 @@
 --SELECT * FROM extension;
 --SELECT * FROM extension WHERE language LIKE '#BASH';
 --INSERT INTO contact_list (email, name) VALUES ('test@example.com', 'Test User');
+--INSERT INTO extension(extID,name,hyperlink,about,image,language) VALUES (5,"Python","https://marketplace.visualstudio.com/items?itemName=ms-python.python","Python language support","https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/python/2024.0.0/Microsoft.VisualStudio.Services.Icons.Default","Python");
 
 -- Retrieve it
 --SELECT * FROM contact_list;

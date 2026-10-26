@@ -13,3 +13,12 @@ def insertContact(email, name):
         cur = con.cursor()
         cur.execute("INSERT INTO contact_list (email,name) VALUES (?,?)", (email, name))
         con.commit()
+
+
+def listExtensionByLanguage(language):
+    with sql.connect("database/data_source.db") as con:
+        cur = con.cursor()
+        data = cur.execute(
+            "SELECT * FROM extension WHERE language = ?", (language,)
+        ).fetchall()
+    return data
